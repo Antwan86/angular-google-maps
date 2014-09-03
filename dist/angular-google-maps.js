@@ -2927,7 +2927,7 @@ Original idea from: http://stackoverflow.com/questions/22758950/google-map-drawi
           this.onLayerCreated = onLayerCreated != null ? onLayerCreated : void 0;
           this.$log = $log != null ? $log : Logger;
           this.createGoogleLayer = __bind(this.createGoogleLayer, this);
-          if (this.attrs.options == null) {
+          if (this.attrs.type == null) {
             this.$log.info("type attribute for the layer directive is mandatory. Layer creation aborted!!");
             return;
           }
